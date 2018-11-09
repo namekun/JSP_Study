@@ -23,7 +23,7 @@
    <Resource
        	auth="Container"  // ConnectionPool 명시
        	driverClassName="oracle.jdbc.driver.OracleDriver"    		     		 
-         url="jdbc:oracle:thin:@localhost:1521:xe"
+           url="jdbc:oracle:thin:@localhost:1521:xe"
        	username="nam"
        	password="***"
        	name="jdbc/Oracle11g" // DB 이름 명시. 호출하기 위해서
