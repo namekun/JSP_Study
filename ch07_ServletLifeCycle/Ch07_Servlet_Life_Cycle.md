@@ -2,7 +2,7 @@
 
 *서블릿 생성 주기*
 
-![](C:\Users\namkun\Desktop\JSP 교재\마크다운 기록\Ch07_ServletLifeCycle\서블릿생명주기.png)
+![](./Ch07_ServletLifeCycle/서블릿생명주기.png)
 
 * 서블릿이 처음 생성되는 단계 - init()
 * 서블릿이 일하는 단계 - service
@@ -13,7 +13,7 @@
 
 *생명주기 관련 메서드*
 
-![](C:\Users\namkun\Desktop\JSP 교재\마크다운 기록\Ch07_ServletLifeCycle\생명주기관련메서드.png)
+![](./Ch07_ServletLifeCycle/생명주기관련메서드.png)
 
 * 단계별로 callback 메서드를 제공함으로써, 각 단계별로 기능을 추가할 수 있다.
 * 실제로 제공할 서비스에 대해 작업을 하는 것은 `doGet`에서 주로 한다.
